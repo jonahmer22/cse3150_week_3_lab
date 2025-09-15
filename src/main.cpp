@@ -25,8 +25,8 @@ int main(int argc, char* argv[]) {
                     std::string L; double V;
                     cout << "label value: ";
                     cin >> L >> V;
-                    addReading(L, V, labels, values, size, capacity);
-                    break;
+		    addReading(L, V, labels, values, size, capacity);
+		    break;
                 }
                 case 2: {
                     int idx; double nv;
